@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.idea
+
+# Angular
+/dist
+/tmp
+/out-tsc
+/node_modules
+
