@@ -16,6 +16,7 @@ export class AppComponent implements OnInit, OnDestroy{
   ngOnInit(): void {
     this.updateService.getExchangeData();
     this.updateService.returnAsObservable().subscribe(() => {
+      console.log('----------------------');
       console.log('Got Event');
       this.getNewData();
     });

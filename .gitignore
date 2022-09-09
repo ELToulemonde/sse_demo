@@ -9,4 +9,5 @@ __pycache__/
 /tmp
 /out-tsc
 */node_modules/
-
+*/.angular
+*/dist

@@ -23,6 +23,9 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "aot": true,
+            "allowedCommonJsDependencies": [
+              "event-source-polyfill"
+            ],
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -123,7 +126,8 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "frontend",
   "cli": {
     "analytics": false
