@@ -4,4 +4,4 @@ import uvicorn
 if __name__ == '__main__':
     # WARNING : Being on 0.0.0.0 is a security issue according to bandit, we escaped the check in CI for now
     # but we should investigate it further.
-    uvicorn.run("backend.app.api:app", host="0.0.0.0", port=8000, workers=1)
+    uvicorn.run("app.api:app", host="0.0.0.0", port=8000, workers=1)
